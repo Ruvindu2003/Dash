@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Social Media Analytics</title>
+<!-- Add CDN links -->
+<link rel="stylesheet" href="stylesheet.css">
+
+
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+</head>
+
+<body>
+
+    <header id="header">
+        <h1 class="title1">Social Media Dashboard</h1>
+          <p>For your analysation</p>
+        </header>
+        
+
+<nav>
+
+    <link rel="stylesheet.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="nav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#charts">Charts</a>
+      <a href="#Analytics">Analytics</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <br>
+
+</nav>
+
+<div class="container">
+
+    <div id="left">
+    <label class="date1">Arrange Your Date</label>
+    <input type="date" id="date" name="Auto Date Arrange">
+
+    <button type="button" class="btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"></path>
+        </svg>
+        
+      </button>
+
+      <button type="button" class="btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+        <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"></path>
+        </svg>
+        Share
+      </button>
+
+    </div>
+
+</div>
+<br>
+
+    
+  </section>
+  <br>
+
+  <h1>Chart</h1>
+
+  <div>
+    <canvas id="myChart" style="width:100%;max-width:100%"></canvas>
+</div>
+
+<h1>Your Analytics</h1>
+
+<div>
+    <canvas id="myChart4" style="width:100%;max-width:100%"></canvas>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+
+
+</html>
