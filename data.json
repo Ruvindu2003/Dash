@@ -1,0 +1,28 @@
+{
+    "lineChartData": {
+      "labels": ["Twitter", "Instagram", "Facebook", "YouTube"],
+      "datasets": [
+        {
+          "data": [35, 50, 75, 80]
+        }
+      ]
+    },
+    "barChartData": {
+      "labels": ["Facebook", "Instagram", "Twitter", "YouTube"],
+      "datasets": [
+        {
+          "label": "Followers",
+          "data": [1500, 2300, 1200, 800]
+        },
+        {
+          "label": "Shares",
+          "data": [300, 500, 200, 150]
+        },
+        {
+          "label": "Views",
+          "data": [120, 180, 90, 60]
+        }
+      ]
+    }
+  }
+  

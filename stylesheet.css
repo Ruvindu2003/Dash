@@ -1,13 +1,13 @@
 
 body {
-  background-color: #1E2A47; /* Deep blue background */
-  color: #F1F1F1; /* Soft off-white text */
+  background-color: #1E2A47; 
+  color: #F1F1F1; 
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Header Section */
+
 #header {
   text-align: center;
   margin: 50px 0;
@@ -15,21 +15,21 @@ body {
 
 .title1 {
   font-size: 3em;
-  color: #FFCCCB; /* Soft pink color for the title */
+  color: #FFCCCB; 
   font-family: 'Georgia', serif;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 #header p {
-  color: #FFD700; /* Golden color for the subheading */
+  color: #FFD700; 
   font-size: 1.2em;
 }
 
-/* Navigation Menu */
+
 .nav {
-  background-color: #2F5061; /* Deep teal background */
+  background-color: #2F5061; 
   overflow: hidden;
-  transform: rotateX(5deg); /* Subtle 3D tilt */
+  transform: rotateX(5deg); 
   border-radius: 10px;
 }
 
@@ -45,18 +45,17 @@ body {
 }
 
 .nav a:hover {
-  background-color: #FFB6C1; /* Light pink hover effect */
+  background-color: #FFB6C1; 
 }
 
 .nav a.active {
-  background-color: #FFCCCB; /* Highlight active link */
+  background-color: #FFCCCB; 
 }
 
 .nav .icon {
   display: none;
 }
 
-/* Responsive Design for Mobile */
 @media screen and (max-width: 600px) {
   .nav a:not(:first-child) {display: none;}
   .nav a.icon {
@@ -76,7 +75,7 @@ body {
   }
 }
 
-/* Container and Buttons */
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -104,7 +103,7 @@ body {
 .btn {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #FFD700; /* Golden button */
+  background-color: #FFD700;
   border: none;
   border-radius: 12px;
   color: #2F5061;
@@ -116,10 +115,10 @@ body {
 
 .btn:hover {
   transform: translateZ(10px);
-  background-color: #FFA500; /* Darker shade on hover */
+  background-color: #FFA500; 
 }
 
-/* Overview Cards Section */
+
 .overview {
   display: flex;
   justify-content: space-between;
@@ -138,11 +137,11 @@ body {
 }
 
 .card:hover {
-  transform: scale(1.05); /* Slight zoom effect on hover */
+  transform: scale(1.05); 
 }
 
 .ctitle {
-  color: #FF6F61; /* Coral color for card titles */
+  color: #FF6F61; 
   font-size: 1.5em;
   margin-bottom: 10px;
 }
@@ -150,7 +149,7 @@ body {
 .card svg {
   width: 40px;
   height: 40px;
-  color: #FF6F61; /* Coral icon color */
+  color: #FF6F61; 
   margin-bottom: 15px;
 }
 
@@ -158,7 +157,7 @@ body {
   font-size: 1.1em;
 }
 
-/* Chart Section */
+
 h1 {
   text-align: center;
   margin: 40px 0;
@@ -172,7 +171,7 @@ canvas {
   border-radius: 10px;
 }
 
-/* Footer Section */
+
 footer {
   background-color: #2F5061;
   color: #F1F1F1;
@@ -183,7 +182,7 @@ footer {
   bottom: 0;
 }
 
-/* Icons */
+
 .bi {
   font-size: 2.5em;
   color: #FF6F61;
